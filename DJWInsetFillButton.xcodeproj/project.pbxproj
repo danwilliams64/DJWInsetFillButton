@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37D6122B1ABB3A2000F6FABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6122A1ABB3A2000F6FABE /* main.m */; };
+		37D6122E1ABB3A2000F6FABE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6122D1ABB3A2000F6FABE /* AppDelegate.m */; };
+		37D612311ABB3A2000F6FABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D612301ABB3A2000F6FABE /* ViewController.m */; };
+		37D612341ABB3A2000F6FABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D612321ABB3A2000F6FABE /* Main.storyboard */; };
+		37D612361ABB3A2000F6FABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D612351ABB3A2000F6FABE /* Images.xcassets */; };
+		37D612391ABB3A2000F6FABE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D612371ABB3A2000F6FABE /* LaunchScreen.xib */; };
+		37D612451ABB3A2000F6FABE /* DJWInsetFillButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D612441ABB3A2000F6FABE /* DJWInsetFillButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37D6123F1ABB3A2000F6FABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37D6121D1ABB3A1F00F6FABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D612241ABB3A2000F6FABE;
+			remoteInfo = DJWInsetFillButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37D612251ABB3A2000F6FABE /* DJWInsetFillButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJWInsetFillButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D612291ABB3A2000F6FABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D6122A1ABB3A2000F6FABE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37D6122C1ABB3A2000F6FABE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37D6122D1ABB3A2000F6FABE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37D6122F1ABB3A2000F6FABE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37D612301ABB3A2000F6FABE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37D612331ABB3A2000F6FABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37D612351ABB3A2000F6FABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37D612381ABB3A2000F6FABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		37D6123E1ABB3A2000F6FABE /* DJWInsetFillButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJWInsetFillButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D612431ABB3A2000F6FABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D612441ABB3A2000F6FABE /* DJWInsetFillButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJWInsetFillButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D612221ABB3A2000F6FABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D6123B1ABB3A2000F6FABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D6121C1ABB3A1F00F6FABE = {
+			isa = PBXGroup;
+			children = (
+				37D612271ABB3A2000F6FABE /* DJWInsetFillButton */,
+				37D612411ABB3A2000F6FABE /* DJWInsetFillButtonTests */,
+				37D612261ABB3A2000F6FABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37D612261ABB3A2000F6FABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37D612251ABB3A2000F6FABE /* DJWInsetFillButton.app */,
+				37D6123E1ABB3A2000F6FABE /* DJWInsetFillButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37D612271ABB3A2000F6FABE /* DJWInsetFillButton */ = {
+			isa = PBXGroup;
+			children = (
+				37D6122C1ABB3A2000F6FABE /* AppDelegate.h */,
+				37D6122D1ABB3A2000F6FABE /* AppDelegate.m */,
+				37D6122F1ABB3A2000F6FABE /* ViewController.h */,
+				37D612301ABB3A2000F6FABE /* ViewController.m */,
+				37D612321ABB3A2000F6FABE /* Main.storyboard */,
+				37D612351ABB3A2000F6FABE /* Images.xcassets */,
+				37D612371ABB3A2000F6FABE /* LaunchScreen.xib */,
+				37D612281ABB3A2000F6FABE /* Supporting Files */,
+			);
+			path = DJWInsetFillButton;
+			sourceTree = "<group>";
+		};
+		37D612281ABB3A2000F6FABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D612291ABB3A2000F6FABE /* Info.plist */,
+				37D6122A1ABB3A2000F6FABE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37D612411ABB3A2000F6FABE /* DJWInsetFillButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				37D612441ABB3A2000F6FABE /* DJWInsetFillButtonTests.m */,
+				37D612421ABB3A2000F6FABE /* Supporting Files */,
+			);
+			path = DJWInsetFillButtonTests;
+			sourceTree = "<group>";
+		};
+		37D612421ABB3A2000F6FABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D612431ABB3A2000F6FABE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D612241ABB3A2000F6FABE /* DJWInsetFillButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D612481ABB3A2000F6FABE /* Build configuration list for PBXNativeTarget "DJWInsetFillButton" */;
+			buildPhases = (
+				37D612211ABB3A2000F6FABE /* Sources */,
+				37D612221ABB3A2000F6FABE /* Frameworks */,
+				37D612231ABB3A2000F6FABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJWInsetFillButton;
+			productName = DJWInsetFillButton;
+			productReference = 37D612251ABB3A2000F6FABE /* DJWInsetFillButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37D6123D1ABB3A2000F6FABE /* DJWInsetFillButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D6124B1ABB3A2000F6FABE /* Build configuration list for PBXNativeTarget "DJWInsetFillButtonTests" */;
+			buildPhases = (
+				37D6123A1ABB3A2000F6FABE /* Sources */,
+				37D6123B1ABB3A2000F6FABE /* Frameworks */,
+				37D6123C1ABB3A2000F6FABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37D612401ABB3A2000F6FABE /* PBXTargetDependency */,
+			);
+			name = DJWInsetFillButtonTests;
+			productName = DJWInsetFillButtonTests;
+			productReference = 37D6123E1ABB3A2000F6FABE /* DJWInsetFillButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37D6121D1ABB3A1F00F6FABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Dan Williams";
+				TargetAttributes = {
+					37D612241ABB3A2000F6FABE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					37D6123D1ABB3A2000F6FABE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 37D612241ABB3A2000F6FABE;
+					};
+				};
+			};
+			buildConfigurationList = 37D612201ABB3A1F00F6FABE /* Build configuration list for PBXProject "DJWInsetFillButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37D6121C1ABB3A1F00F6FABE;
+			productRefGroup = 37D612261ABB3A2000F6FABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D612241ABB3A2000F6FABE /* DJWInsetFillButton */,
+				37D6123D1ABB3A2000F6FABE /* DJWInsetFillButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37D612231ABB3A2000F6FABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D612341ABB3A2000F6FABE /* Main.storyboard in Resources */,
+				37D612391ABB3A2000F6FABE /* LaunchScreen.xib in Resources */,
+				37D612361ABB3A2000F6FABE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D6123C1ABB3A2000F6FABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D612211ABB3A2000F6FABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D612311ABB3A2000F6FABE /* ViewController.m in Sources */,
+				37D6122E1ABB3A2000F6FABE /* AppDelegate.m in Sources */,
+				37D6122B1ABB3A2000F6FABE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D6123A1ABB3A2000F6FABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D612451ABB3A2000F6FABE /* DJWInsetFillButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37D612401ABB3A2000F6FABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37D612241ABB3A2000F6FABE /* DJWInsetFillButton */;
+			targetProxy = 37D6123F1ABB3A2000F6FABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37D612321ABB3A2000F6FABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D612331ABB3A2000F6FABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37D612371ABB3A2000F6FABE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D612381ABB3A2000F6FABE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37D612461ABB3A2000F6FABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37D612471ABB3A2000F6FABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37D612491ABB3A2000F6FABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJWInsetFillButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37D6124A1ABB3A2000F6FABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJWInsetFillButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37D6124C1ABB3A2000F6FABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DJWInsetFillButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJWInsetFillButton.app/DJWInsetFillButton";
+			};
+			name = Debug;
+		};
+		37D6124D1ABB3A2000F6FABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DJWInsetFillButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJWInsetFillButton.app/DJWInsetFillButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37D612201ABB3A1F00F6FABE /* Build configuration list for PBXProject "DJWInsetFillButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D612461ABB3A2000F6FABE /* Debug */,
+				37D612471ABB3A2000F6FABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D612481ABB3A2000F6FABE /* Build configuration list for PBXNativeTarget "DJWInsetFillButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D612491ABB3A2000F6FABE /* Debug */,
+				37D6124A1ABB3A2000F6FABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37D6124B1ABB3A2000F6FABE /* Build configuration list for PBXNativeTarget "DJWInsetFillButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D6124C1ABB3A2000F6FABE /* Debug */,
+				37D6124D1ABB3A2000F6FABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37D6121D1ABB3A1F00F6FABE /* Project object */;
+}
