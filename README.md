@@ -6,6 +6,7 @@ A UIButton replacement, that has an inset fill when highlighted. Allows for styl
 * Border corner radius
 * Highlighted state background color
 * Font
+* The normal control state's title color takes on the view's `tintColor` property.
 
 The class is also designed for use in IB, and is completely IB_Designable, and every property IBInspectable.
 This class uses AutoLayout and requires a constraints based layout.
