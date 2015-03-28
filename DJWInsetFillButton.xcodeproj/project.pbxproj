@@ -7,50 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37D6122B1ABB3A2000F6FABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6122A1ABB3A2000F6FABE /* main.m */; };
-		37D6122E1ABB3A2000F6FABE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6122D1ABB3A2000F6FABE /* AppDelegate.m */; };
-		37D612311ABB3A2000F6FABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D612301ABB3A2000F6FABE /* ViewController.m */; };
-		37D612341ABB3A2000F6FABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D612321ABB3A2000F6FABE /* Main.storyboard */; };
-		37D612361ABB3A2000F6FABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D612351ABB3A2000F6FABE /* Images.xcassets */; };
-		37D612391ABB3A2000F6FABE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D612371ABB3A2000F6FABE /* LaunchScreen.xib */; };
-		37D612451ABB3A2000F6FABE /* DJWInsetFillButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D612441ABB3A2000F6FABE /* DJWInsetFillButtonTests.m */; };
+		37D612501ABB3B9300F6FABE /* DJWInsetFillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6124F1ABB3B9300F6FABE /* DJWInsetFillButton.m */; };
+		37D9E2051AC0AA98006D6147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9E1FB1AC0AA98006D6147 /* AppDelegate.m */; };
+		37D9E2061AC0AA98006D6147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D9E1FC1AC0AA98006D6147 /* LaunchScreen.xib */; };
+		37D9E2071AC0AA98006D6147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D9E1FE1AC0AA98006D6147 /* Main.storyboard */; };
+		37D9E2081AC0AA98006D6147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D9E2001AC0AA98006D6147 /* Images.xcassets */; };
+		37D9E20A1AC0AA98006D6147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9E2021AC0AA98006D6147 /* main.m */; };
+		37D9E20B1AC0AA98006D6147 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9E2041AC0AA98006D6147 /* ViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		37D6123F1ABB3A2000F6FABE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37D6121D1ABB3A1F00F6FABE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37D612241ABB3A2000F6FABE;
-			remoteInfo = DJWInsetFillButton;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		37D612251ABB3A2000F6FABE /* DJWInsetFillButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJWInsetFillButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37D612291ABB3A2000F6FABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37D6122A1ABB3A2000F6FABE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37D6122C1ABB3A2000F6FABE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		37D6122D1ABB3A2000F6FABE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37D6122F1ABB3A2000F6FABE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37D612301ABB3A2000F6FABE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		37D612331ABB3A2000F6FABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37D612351ABB3A2000F6FABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		37D612381ABB3A2000F6FABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		37D6123E1ABB3A2000F6FABE /* DJWInsetFillButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJWInsetFillButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37D612431ABB3A2000F6FABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37D612441ABB3A2000F6FABE /* DJWInsetFillButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJWInsetFillButtonTests.m; sourceTree = "<group>"; };
+		37D6124E1ABB3B9300F6FABE /* DJWInsetFillButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJWInsetFillButton.h; sourceTree = "<group>"; };
+		37D6124F1ABB3B9300F6FABE /* DJWInsetFillButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJWInsetFillButton.m; sourceTree = "<group>"; };
+		37D9E1FA1AC0AA98006D6147 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37D9E1FB1AC0AA98006D6147 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37D9E1FD1AC0AA98006D6147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		37D9E1FF1AC0AA98006D6147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37D9E2001AC0AA98006D6147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37D9E2011AC0AA98006D6147 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D9E2021AC0AA98006D6147 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37D9E2031AC0AA98006D6147 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37D9E2041AC0AA98006D6147 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		37D612221ABB3A2000F6FABE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37D6123B1ABB3A2000F6FABE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				37D612271ABB3A2000F6FABE /* DJWInsetFillButton */,
-				37D612411ABB3A2000F6FABE /* DJWInsetFillButtonTests */,
+				37D9E1F91AC0AA98006D6147 /* Example */,
 				37D612261ABB3A2000F6FABE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				37D612251ABB3A2000F6FABE /* DJWInsetFillButton.app */,
-				37D6123E1ABB3A2000F6FABE /* DJWInsetFillButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,42 +62,26 @@
 		37D612271ABB3A2000F6FABE /* DJWInsetFillButton */ = {
 			isa = PBXGroup;
 			children = (
-				37D6122C1ABB3A2000F6FABE /* AppDelegate.h */,
-				37D6122D1ABB3A2000F6FABE /* AppDelegate.m */,
-				37D6122F1ABB3A2000F6FABE /* ViewController.h */,
-				37D612301ABB3A2000F6FABE /* ViewController.m */,
-				37D612321ABB3A2000F6FABE /* Main.storyboard */,
-				37D612351ABB3A2000F6FABE /* Images.xcassets */,
-				37D612371ABB3A2000F6FABE /* LaunchScreen.xib */,
-				37D612281ABB3A2000F6FABE /* Supporting Files */,
+				37D6124E1ABB3B9300F6FABE /* DJWInsetFillButton.h */,
+				37D6124F1ABB3B9300F6FABE /* DJWInsetFillButton.m */,
 			);
 			path = DJWInsetFillButton;
 			sourceTree = "<group>";
 		};
-		37D612281ABB3A2000F6FABE /* Supporting Files */ = {
+		37D9E1F91AC0AA98006D6147 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				37D612291ABB3A2000F6FABE /* Info.plist */,
-				37D6122A1ABB3A2000F6FABE /* main.m */,
+				37D9E1FA1AC0AA98006D6147 /* AppDelegate.h */,
+				37D9E1FB1AC0AA98006D6147 /* AppDelegate.m */,
+				37D9E2031AC0AA98006D6147 /* ViewController.h */,
+				37D9E2041AC0AA98006D6147 /* ViewController.m */,
+				37D9E1FC1AC0AA98006D6147 /* LaunchScreen.xib */,
+				37D9E1FE1AC0AA98006D6147 /* Main.storyboard */,
+				37D9E2001AC0AA98006D6147 /* Images.xcassets */,
+				37D9E2011AC0AA98006D6147 /* Info.plist */,
+				37D9E2021AC0AA98006D6147 /* main.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		37D612411ABB3A2000F6FABE /* DJWInsetFillButtonTests */ = {
-			isa = PBXGroup;
-			children = (
-				37D612441ABB3A2000F6FABE /* DJWInsetFillButtonTests.m */,
-				37D612421ABB3A2000F6FABE /* Supporting Files */,
-			);
-			path = DJWInsetFillButtonTests;
-			sourceTree = "<group>";
-		};
-		37D612421ABB3A2000F6FABE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				37D612431ABB3A2000F6FABE /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +104,6 @@
 			productReference = 37D612251ABB3A2000F6FABE /* DJWInsetFillButton.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37D6123D1ABB3A2000F6FABE /* DJWInsetFillButtonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37D6124B1ABB3A2000F6FABE /* Build configuration list for PBXNativeTarget "DJWInsetFillButtonTests" */;
-			buildPhases = (
-				37D6123A1ABB3A2000F6FABE /* Sources */,
-				37D6123B1ABB3A2000F6FABE /* Frameworks */,
-				37D6123C1ABB3A2000F6FABE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37D612401ABB3A2000F6FABE /* PBXTargetDependency */,
-			);
-			name = DJWInsetFillButtonTests;
-			productName = DJWInsetFillButtonTests;
-			productReference = 37D6123E1ABB3A2000F6FABE /* DJWInsetFillButtonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +115,6 @@
 				TargetAttributes = {
 					37D612241ABB3A2000F6FABE = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					37D6123D1ABB3A2000F6FABE = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 37D612241ABB3A2000F6FABE;
 					};
 				};
 			};
@@ -189,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				37D612241ABB3A2000F6FABE /* DJWInsetFillButton */,
-				37D6123D1ABB3A2000F6FABE /* DJWInsetFillButtonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37D612341ABB3A2000F6FABE /* Main.storyboard in Resources */,
-				37D612391ABB3A2000F6FABE /* LaunchScreen.xib in Resources */,
-				37D612361ABB3A2000F6FABE /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37D6123C1ABB3A2000F6FABE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				37D9E2081AC0AA98006D6147 /* Images.xcassets in Resources */,
+				37D9E2061AC0AA98006D6147 /* LaunchScreen.xib in Resources */,
+				37D9E2071AC0AA98006D6147 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,45 +154,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37D612311ABB3A2000F6FABE /* ViewController.m in Sources */,
-				37D6122E1ABB3A2000F6FABE /* AppDelegate.m in Sources */,
-				37D6122B1ABB3A2000F6FABE /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37D6123A1ABB3A2000F6FABE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37D612451ABB3A2000F6FABE /* DJWInsetFillButtonTests.m in Sources */,
+				37D612501ABB3B9300F6FABE /* DJWInsetFillButton.m in Sources */,
+				37D9E20A1AC0AA98006D6147 /* main.m in Sources */,
+				37D9E2051AC0AA98006D6147 /* AppDelegate.m in Sources */,
+				37D9E20B1AC0AA98006D6147 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		37D612401ABB3A2000F6FABE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 37D612241ABB3A2000F6FABE /* DJWInsetFillButton */;
-			targetProxy = 37D6123F1ABB3A2000F6FABE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		37D612321ABB3A2000F6FABE /* Main.storyboard */ = {
+		37D9E1FC1AC0AA98006D6147 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				37D612331ABB3A2000F6FABE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		37D612371ABB3A2000F6FABE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37D612381ABB3A2000F6FABE /* Base */,
+				37D9E1FD1AC0AA98006D6147 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		37D9E1FE1AC0AA98006D6147 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D9E1FF1AC0AA98006D6147 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,7 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DJWInsetFillButton/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,43 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DJWInsetFillButton/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		37D6124C1ABB3A2000F6FABE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DJWInsetFillButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJWInsetFillButton.app/DJWInsetFillButton";
-			};
-			name = Debug;
-		};
-		37D6124D1ABB3A2000F6FABE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DJWInsetFillButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJWInsetFillButton.app/DJWInsetFillButton";
 			};
 			name = Release;
 		};
@@ -412,14 +298,7 @@
 				37D6124A1ABB3A2000F6FABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		37D6124B1ABB3A2000F6FABE /* Build configuration list for PBXNativeTarget "DJWInsetFillButtonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37D6124C1ABB3A2000F6FABE /* Debug */,
-				37D6124D1ABB3A2000F6FABE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
