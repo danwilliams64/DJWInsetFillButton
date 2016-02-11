@@ -28,7 +28,7 @@ The button's intrinsic content size is updated when the button's title changes, 
 
 ## Installation
 
-Simply add `DJWInsetFillButton` to your Podfile if you're using Cocoapods. Alternatively, add `DJWInsetFillButton.h` and `DJWInsetFillButton.m` to your project. Included in this repository is a demo application, showing the project in action.
+Simply add `DJWInsetFillButton` to your Podfile if you're using CocoaPods. Alternatively, add `DJWInsetFillButton.h` and `DJWInsetFillButton.m` to your project. Included in this repository is a demo application, showing the project in action.
 
 ## License
 
